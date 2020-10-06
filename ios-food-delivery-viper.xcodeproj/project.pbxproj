@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025FA075252CE03A00708503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025FA074252CE03A00708503 /* AppDelegate.swift */; };
+		025FA077252CE03A00708503 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025FA076252CE03A00708503 /* SceneDelegate.swift */; };
+		025FA079252CE03A00708503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025FA078252CE03A00708503 /* ViewController.swift */; };
+		025FA07C252CE03A00708503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025FA07A252CE03A00708503 /* Main.storyboard */; };
+		025FA07E252CE03F00708503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025FA07D252CE03F00708503 /* Assets.xcassets */; };
+		025FA081252CE03F00708503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025FA07F252CE03F00708503 /* LaunchScreen.storyboard */; };
+		025FA08C252CE04000708503 /* ios_food_delivery_viperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025FA08B252CE04000708503 /* ios_food_delivery_viperTests.swift */; };
+		025FA097252CE04000708503 /* ios_food_delivery_viperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025FA096252CE04000708503 /* ios_food_delivery_viperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		025FA088252CE04000708503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025FA069252CE03A00708503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025FA070252CE03A00708503;
+			remoteInfo = "ios-food-delivery-viper";
+		};
+		025FA093252CE04000708503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025FA069252CE03A00708503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025FA070252CE03A00708503;
+			remoteInfo = "ios-food-delivery-viper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025FA071252CE03A00708503 /* ios-food-delivery-viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-food-delivery-viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025FA074252CE03A00708503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		025FA076252CE03A00708503 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		025FA078252CE03A00708503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		025FA07B252CE03A00708503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025FA07D252CE03F00708503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		025FA080252CE03F00708503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		025FA082252CE03F00708503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025FA087252CE04000708503 /* ios-food-delivery-viperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-food-delivery-viperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025FA08B252CE04000708503 /* ios_food_delivery_viperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_food_delivery_viperTests.swift; sourceTree = "<group>"; };
+		025FA08D252CE04000708503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025FA092252CE04000708503 /* ios-food-delivery-viperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-food-delivery-viperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025FA096252CE04000708503 /* ios_food_delivery_viperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_food_delivery_viperUITests.swift; sourceTree = "<group>"; };
+		025FA098252CE04000708503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025FA06E252CE03A00708503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025FA084252CE04000708503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025FA08F252CE04000708503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025FA068252CE03A00708503 = {
+			isa = PBXGroup;
+			children = (
+				025FA073252CE03A00708503 /* ios-food-delivery-viper */,
+				025FA08A252CE04000708503 /* ios-food-delivery-viperTests */,
+				025FA095252CE04000708503 /* ios-food-delivery-viperUITests */,
+				025FA072252CE03A00708503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025FA072252CE03A00708503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025FA071252CE03A00708503 /* ios-food-delivery-viper.app */,
+				025FA087252CE04000708503 /* ios-food-delivery-viperTests.xctest */,
+				025FA092252CE04000708503 /* ios-food-delivery-viperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025FA073252CE03A00708503 /* ios-food-delivery-viper */ = {
+			isa = PBXGroup;
+			children = (
+				025FA074252CE03A00708503 /* AppDelegate.swift */,
+				025FA076252CE03A00708503 /* SceneDelegate.swift */,
+				025FA078252CE03A00708503 /* ViewController.swift */,
+				025FA07A252CE03A00708503 /* Main.storyboard */,
+				025FA07D252CE03F00708503 /* Assets.xcassets */,
+				025FA07F252CE03F00708503 /* LaunchScreen.storyboard */,
+				025FA082252CE03F00708503 /* Info.plist */,
+			);
+			path = "ios-food-delivery-viper";
+			sourceTree = "<group>";
+		};
+		025FA08A252CE04000708503 /* ios-food-delivery-viperTests */ = {
+			isa = PBXGroup;
+			children = (
+				025FA08B252CE04000708503 /* ios_food_delivery_viperTests.swift */,
+				025FA08D252CE04000708503 /* Info.plist */,
+			);
+			path = "ios-food-delivery-viperTests";
+			sourceTree = "<group>";
+		};
+		025FA095252CE04000708503 /* ios-food-delivery-viperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				025FA096252CE04000708503 /* ios_food_delivery_viperUITests.swift */,
+				025FA098252CE04000708503 /* Info.plist */,
+			);
+			path = "ios-food-delivery-viperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025FA070252CE03A00708503 /* ios-food-delivery-viper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025FA09B252CE04000708503 /* Build configuration list for PBXNativeTarget "ios-food-delivery-viper" */;
+			buildPhases = (
+				025FA06D252CE03A00708503 /* Sources */,
+				025FA06E252CE03A00708503 /* Frameworks */,
+				025FA06F252CE03A00708503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-food-delivery-viper";
+			productName = "ios-food-delivery-viper";
+			productReference = 025FA071252CE03A00708503 /* ios-food-delivery-viper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025FA086252CE04000708503 /* ios-food-delivery-viperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025FA09E252CE04000708503 /* Build configuration list for PBXNativeTarget "ios-food-delivery-viperTests" */;
+			buildPhases = (
+				025FA083252CE04000708503 /* Sources */,
+				025FA084252CE04000708503 /* Frameworks */,
+				025FA085252CE04000708503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025FA089252CE04000708503 /* PBXTargetDependency */,
+			);
+			name = "ios-food-delivery-viperTests";
+			productName = "ios-food-delivery-viperTests";
+			productReference = 025FA087252CE04000708503 /* ios-food-delivery-viperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		025FA091252CE04000708503 /* ios-food-delivery-viperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025FA0A1252CE04000708503 /* Build configuration list for PBXNativeTarget "ios-food-delivery-viperUITests" */;
+			buildPhases = (
+				025FA08E252CE04000708503 /* Sources */,
+				025FA08F252CE04000708503 /* Frameworks */,
+				025FA090252CE04000708503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025FA094252CE04000708503 /* PBXTargetDependency */,
+			);
+			name = "ios-food-delivery-viperUITests";
+			productName = "ios-food-delivery-viperUITests";
+			productReference = 025FA092252CE04000708503 /* ios-food-delivery-viperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025FA069252CE03A00708503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					025FA070252CE03A00708503 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					025FA086252CE04000708503 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 025FA070252CE03A00708503;
+					};
+					025FA091252CE04000708503 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 025FA070252CE03A00708503;
+					};
+				};
+			};
+			buildConfigurationList = 025FA06C252CE03A00708503 /* Build configuration list for PBXProject "ios-food-delivery-viper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025FA068252CE03A00708503;
+			productRefGroup = 025FA072252CE03A00708503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025FA070252CE03A00708503 /* ios-food-delivery-viper */,
+				025FA086252CE04000708503 /* ios-food-delivery-viperTests */,
+				025FA091252CE04000708503 /* ios-food-delivery-viperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025FA06F252CE03A00708503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025FA081252CE03F00708503 /* LaunchScreen.storyboard in Resources */,
+				025FA07E252CE03F00708503 /* Assets.xcassets in Resources */,
+				025FA07C252CE03A00708503 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025FA085252CE04000708503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025FA090252CE04000708503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025FA06D252CE03A00708503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025FA079252CE03A00708503 /* ViewController.swift in Sources */,
+				025FA075252CE03A00708503 /* AppDelegate.swift in Sources */,
+				025FA077252CE03A00708503 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025FA083252CE04000708503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025FA08C252CE04000708503 /* ios_food_delivery_viperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025FA08E252CE04000708503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025FA097252CE04000708503 /* ios_food_delivery_viperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025FA089252CE04000708503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025FA070252CE03A00708503 /* ios-food-delivery-viper */;
+			targetProxy = 025FA088252CE04000708503 /* PBXContainerItemProxy */;
+		};
+		025FA094252CE04000708503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025FA070252CE03A00708503 /* ios-food-delivery-viper */;
+			targetProxy = 025FA093252CE04000708503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		025FA07A252CE03A00708503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025FA07B252CE03A00708503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		025FA07F252CE03F00708503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025FA080252CE03F00708503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025FA099252CE04000708503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025FA09A252CE04000708503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025FA09C252CE04000708503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-food-delivery-viper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max.ios-food-delivery-viper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		025FA09D252CE04000708503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-food-delivery-viper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max.ios-food-delivery-viper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		025FA09F252CE04000708503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-food-delivery-viperTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max.ios-food-delivery-viperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-food-delivery-viper.app/ios-food-delivery-viper";
+			};
+			name = Debug;
+		};
+		025FA0A0252CE04000708503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-food-delivery-viperTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max.ios-food-delivery-viperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-food-delivery-viper.app/ios-food-delivery-viper";
+			};
+			name = Release;
+		};
+		025FA0A2252CE04000708503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-food-delivery-viperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max.ios-food-delivery-viperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-food-delivery-viper";
+			};
+			name = Debug;
+		};
+		025FA0A3252CE04000708503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-food-delivery-viperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.max.ios-food-delivery-viperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-food-delivery-viper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025FA06C252CE03A00708503 /* Build configuration list for PBXProject "ios-food-delivery-viper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025FA099252CE04000708503 /* Debug */,
+				025FA09A252CE04000708503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025FA09B252CE04000708503 /* Build configuration list for PBXNativeTarget "ios-food-delivery-viper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025FA09C252CE04000708503 /* Debug */,
+				025FA09D252CE04000708503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025FA09E252CE04000708503 /* Build configuration list for PBXNativeTarget "ios-food-delivery-viperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025FA09F252CE04000708503 /* Debug */,
+				025FA0A0252CE04000708503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025FA0A1252CE04000708503 /* Build configuration list for PBXNativeTarget "ios-food-delivery-viperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025FA0A2252CE04000708503 /* Debug */,
+				025FA0A3252CE04000708503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025FA069252CE03A00708503 /* Project object */;
+}
